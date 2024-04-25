@@ -25,7 +25,6 @@ public class EmailSort {
             emailMap.get(domain).add(email);
         }
 
-        // Print emails separated by domain
         for (Map.Entry<String, List<String>> entry : emailMap.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
